@@ -4,7 +4,7 @@ C# Minimal AVL Tree Implementation
 This is just a basic implementation of an AVL Binary Search Tree. 
 NOTE: This is not production code, just an excercise in implementing an algorithm.
 
-# Right Right Case #
+## Right Right Case ##
 
      3                  5
       \                / \
@@ -12,10 +12,26 @@ NOTE: This is not production code, just an excercise in implementing an algorith
         \              
          7              
 
-#Right Left Case #
+## Right Left Case ##
 
      3                  3                  4
       \                  \                / \
        5    -->           4    -->       3   5            
       /                    \
      4                      5
+     
+## Left Left Case ##
+
+         5              3
+        /              / \
+       3    -->       2   5
+      /              
+     2              
+
+## Left Right Case ##
+
+       5                    5                4
+      /                    /                / \
+     3      -->           4    -->         3   5            
+      \                  / 
+       4                3 

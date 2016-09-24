@@ -14,7 +14,7 @@ The RR case will require a single __left-rotation__ on the (3) Node to balance:
          7              
 
 ### Right Left Case ###
-The RL case requires a __right-rotation__ on the (5) Node and a __right-rotation__ on the (3) Node:
+The RL case requires a __right-rotation__ on the (5) Node and a left-rotation__ on the (3) Node:
 
      3                  3                  4
       \                  \                / \

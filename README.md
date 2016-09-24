@@ -5,6 +5,7 @@ This is just a basic implementation of an AVL Binary Search Tree.
 NOTE: This is not production code, just an excercise in implementing an algorithm.
 
 ### Right Right Case ###
+The RR case will require a single __left-rotation__ on the (3) Node to balance:
 
      3                  5
       \                / \
@@ -13,6 +14,7 @@ NOTE: This is not production code, just an excercise in implementing an algorith
          7              
 
 ### Right Left Case ###
+The RL case requires a __right-rotation__ on the (5) Node and a __right-rotation__ on the (3) Node:
 
      3                  3                  4
       \                  \                / \
@@ -21,6 +23,7 @@ NOTE: This is not production code, just an excercise in implementing an algorith
      4                      5
      
 ### Left Left Case ###
+The LL case will require a single __right-rotation__ on the (5) Node to balance:
 
          5              3
         /              / \
@@ -29,6 +32,7 @@ NOTE: This is not production code, just an excercise in implementing an algorith
      2              
 
 ### Left Right Case ###
+The LR case requires a __left-rotation__ on the (3) Node and a __right-rotation__ on the (5) Node:
 
        5                    5                4
       /                    /                / \

@@ -35,3 +35,7 @@ NOTE: This is not production code, just an excercise in implementing an algorith
      3      -->           4    -->         3   5            
       \                  / 
        4                3 
+
+
+### Complexity Analysis ###
+ In terms of the depth of an AVL tree on both sides, it differs at most by 1 level. At any other time where difference in height/depth is greater than 1 or less than -1, rebalancing occurs. In terms of space it has a O(n) complexity. With time complexity it has O(log n).
